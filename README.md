@@ -3,7 +3,7 @@ SITE CASAMENTO EM DETALHES - DESENVOLVEDOR PRECURSOR ROGÉRIO BRITO SOARES
 
 VAMOS LÁ!!
 
-**DENTRO DA PASTA 'bd', vc vai ter o banco de dados. O nome do banco é 'orange77_orangeadex'
+**DENTRO DA PASTA 'bd', vc vai ter o banco de dados. O nome do banco é 'orange77_casamentoemdetalhes'
 
 **DENTRO DA PASTA 'project' vc vai ter toda a API do PayPal já instalada. Nao precisa baixar SDK, ir no GitHub, nem nada. Já tá tudo pronto. A pessoa que tem a conta empresarial do Paypal só vai precisar pegar as credenciais de lá e jogar no script 'paypalswitch.inc.php'. Então a única coisa que tem que fazer é pegar as credenciais da API e colocar aí.
 
