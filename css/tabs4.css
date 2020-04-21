@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the tab */
+/* Style the buttons inside div personalizarpagina */
+.tab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+  /*background-color: #f1f1f1;*/
+  text-align: center;
+}
+
+.centralizador {
+  width: 425px;
+  margin: auto;
+  position: relative;
+  border: 0px solid grey;
+}
+
+/* Style the buttons inside the tab */
+.centralizador button {
+  background-color: whitesmoke;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 40px;
+  transition: 0.3s;
+  font-size: 70%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-right: 5px;
+}
+/* Change background color of buttons on hover */
+.centralizador button:hover {
+  background-color: #ccc;
+}
+/* Create an active/current tablink class */
+.centralizador button.active {
+  background-color: #e8e8e8;
+  font-weight: bold;
+}
+
+/* Style the tab content */
+.tabcontent4 {
+  display: none;
+  padding: 2% 3%;
+  border: 0px solid #ccc;
+  border-top: none;
+  overflow: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+  /* [disabled]height:auto; */
+}
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright:hover {
+  color: red;
+}

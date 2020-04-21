@@ -1,0 +1,1094 @@
+[19-Jul-2019 02:29:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[19-Jul-2019 02:32:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[18-Jul-2019 20:04:01 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:131) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 135
+[19-Jul-2019 03:05:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[19-Jul-2019 03:05:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[19-Jul-2019 03:05:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[18-Jul-2019 20:28:18 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:131) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 135
+[19-Jul-2019 04:18:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(31): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[19-Jul-2019 04:23:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 4
+[19-Jul-2019 04:33:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 4
+[19-Jul-2019 04:41:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 4
+[19-Jul-2019 04:46:24 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 4
+[19-Jul-2019 05:11:46 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 4
+[19-Jul-2019 05:17:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(30): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[19-Jul-2019 06:23:41 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:193) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 197
+[19-Jul-2019 09:11:33 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:161
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 161
+[19-Jul-2019 09:11:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:161
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 161
+[19-Jul-2019 09:16:00 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:161
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 161
+[19-Jul-2019 09:32:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alldata' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:165
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(165): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 165
+[19-Jul-2019 09:47:57 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:147) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 234
+[19-Jul-2019 10:18:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alldata' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:165
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(165): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 165
+[19-Jul-2019 10:37:58 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alldata' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:165
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(165): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 165
+[19-Jul-2019 11:50:15 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alldata' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:165
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(165): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 165
+[19-Jul-2019 19:10:24 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 120
+[19-Jul-2019 19:10:42 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 120
+[19-Jul-2019 19:42:52 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 120
+[19-Jul-2019 20:21:27 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[19-Jul-2019 21:34:41 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[19-Jul-2019 21:36:52 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[19-Jul-2019 21:37:57 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[19-Jul-2019 21:38:45 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[20-Jul-2019 04:41:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[20-Jul-2019 06:47:03 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[20-Jul-2019 06:53:53 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[20-Jul-2019 07:10:31 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[20-Jul-2019 07:17:51 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 123
+[20-Jul-2019 07:29:02 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:163
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(163): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 163
+[20-Jul-2019 15:36:36 UTC] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 50
+[20-Jul-2019 10:12:51 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 157
+[20-Jul-2019 10:23:04 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 156
+[20-Jul-2019 10:27:09 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/roguitar/public_html/ipn/php/ipnlistener.php:155
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(155): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 155
+[20-Jul-2019 17:35:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[20-Jul-2019 10:59:55 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/roguitar/public_html/ipn/php/ipnlistener.php:135
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(135): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 135
+[20-Jul-2019 11:05:19 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on null in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 137
+[20-Jul-2019 11:15:04 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on null in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 137
+[20-Jul-2019 11:29:25 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on null in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 137
+[20-Jul-2019 11:31:57 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on null in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 137
+[20-Jul-2019 11:32:18 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch() on null in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 137
+[20-Jul-2019 20:34:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/php/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/PaypalIPN.php on line 64
+[20-Jul-2019 14:06:15 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 122
+[20-Jul-2019 14:11:26 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 121
+[20-Jul-2019 14:26:42 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:124) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 272
+[20-Jul-2019 14:29:49 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/php/ipnlistener.php:124) in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 272
+[20-Jul-2019 14:43:47 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 148
+[20-Jul-2019 14:45:30 America/Los_Angeles] PHP Fatal error:  Class 'Listener\PDO' not found in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 148
+[20-Jul-2019 15:19:10 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/php/ipnlistener.php:164
+Stack trace:
+#0 /home/roguitar/public_html/ipn/php/ipnlistener.php(164): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/php/ipnlistener.php on line 164
+[21-Jul-2019 08:51:27 America/Los_Angeles] PHP Warning:  require(../../config.php): failed to open stream: No such file or directory in /home/roguitar/public_html/ipn/ipnlistener.php on line 104
+[21-Jul-2019 08:51:27 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required '../../config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/roguitar/public_html/ipn/ipnlistener.php on line 104
+[21-Jul-2019 16:33:11 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:180
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 180
+[21-Jul-2019 16:50:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:180
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 180
+[21-Jul-2019 16:58:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:180
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 180
+[21-Jul-2019 17:07:03 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'txn_type' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:180
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(180): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 180
+[22-Jul-2019 01:34:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(28): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[22-Jul-2019 04:20:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[22-Jul-2019 06:31:43 America/Los_Angeles] PHP Notice:  Undefined index: payment_status in /home/roguitar/public_html/ipn/ipnlistener.php on line 108
+[22-Jul-2019 06:31:43 America/Los_Angeles] PHP Notice:  Undefined variable: pdo in /home/roguitar/public_html/ipn/ipnlistener.php on line 123
+[22-Jul-2019 06:31:43 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/roguitar/public_html/ipn/ipnlistener.php on line 123
+[22-Jul-2019 06:31:48 America/Los_Angeles] PHP Notice:  Undefined variable: pdo in /home/roguitar/public_html/ipn/ipnlistener.php on line 123
+[22-Jul-2019 06:31:48 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/roguitar/public_html/ipn/ipnlistener.php on line 123
+[22-Jul-2019 06:35:36 America/Los_Angeles] PHP Notice:  Undefined index: payment_status in /home/roguitar/public_html/ipn/ipnlistener.php on line 108
+[22-Jul-2019 06:35:36 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:186
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(186): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 13:39:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[22-Jul-2019 13:49:50 America/Los_Angeles] PHP Notice:  Undefined index: payment_status in /home/roguitar/public_html/ipn/ipnlistener.php on line 108
+[22-Jul-2019 13:49:50 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_status' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:186
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(186): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:38:52 America/Los_Angeles] PHP Notice:  Undefined variable: subject in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:38:52 America/Los_Angeles] PHP Notice:  Undefined variable: message in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:38:52 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subject' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:186
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(186): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:46:22 America/Los_Angeles] PHP Notice:  Undefined variable: subject in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:46:22 America/Los_Angeles] PHP Notice:  Undefined variable: message in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 15:46:22 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subject' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:186
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(186): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 186
+[22-Jul-2019 23:09:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[22-Jul-2019 17:12:48 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'txn_type' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:185
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(185): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 185
+[22-Jul-2019 18:01:28 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'txn_type' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:185
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(185): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 185
+[22-Jul-2019 18:03:34 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'txn_type' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:185
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(185): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 185
+[23-Jul-2019 02:35:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(29): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[05-Aug-2019 04:45:56 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:309
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(309): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 309
+[05-Aug-2019 05:24:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:261
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(261): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 261
+[05-Aug-2019 06:37:23 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[05-Aug-2019 07:12:00 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[05-Aug-2019 07:20:39 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[05-Aug-2019 08:09:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[05-Aug-2019 13:18:33 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[05-Aug-2019 14:12:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 03:30:17 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 03:37:56 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 03:46:26 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 04:03:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 04:18:35 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 04:19:09 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 07:34:36 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 08:05:14 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 08:10:53 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 10:02:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 11:05:59 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 12:48:11 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 14:06:20 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 14:30:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 14:37:32 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 15:23:12 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 16:16:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[06-Aug-2019 17:09:11 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 04:37:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 04:40:56 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 13:57:08 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 15:09:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 15:54:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 17:00:47 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[07-Aug-2019 17:00:48 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[08-Aug-2019 11:30:51 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[08-Aug-2019 17:00:36 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[08-Aug-2019 17:00:36 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[09-Aug-2019 10:52:19 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[09-Aug-2019 17:02:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[09-Aug-2019 17:02:15 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[09-Aug-2019 20:37:35 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[09-Aug-2019 20:37:49 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[11-Aug-2019 03:46:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[11-Aug-2019 07:31:21 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[11-Aug-2019 07:54:12 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[11-Aug-2019 08:03:06 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[11-Aug-2019 08:03:23 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[13-Aug-2019 13:12:57 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[13-Aug-2019 15:22:31 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:223) in /home/roguitar/public_html/ipn/ipnlistener.php on line 340
+[14-Aug-2019 09:33:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 09:33:22 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:12:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:13:26 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:22:18 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:22:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:36:27 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:36:45 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:49:19 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 10:49:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 12:07:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 12:08:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:13:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:13:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:14:53 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:31:04 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:31:19 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:48:02 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 18:48:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 20:32:51 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 20:33:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 20:54:29 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 20:54:42 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 21:43:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 21:44:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 22:17:26 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 22:17:42 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 23:59:36 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[14-Aug-2019 23:59:50 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 00:06:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 00:07:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 12:42:24 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 12:42:41 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:36:22 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:36:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:45:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:45:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:53:16 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[15-Aug-2019 13:53:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 07:09:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 10:30:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 10:31:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:17:42 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:17:50 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:22:45 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:23:24 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:45:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 11:46:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 12:08:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 12:10:46 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 12:10:54 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 13:04:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 13:04:50 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 13:12:22 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 13:12:38 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 17:05:56 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[16-Aug-2019 19:31:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[17-Aug-2019 00:03:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[17-Aug-2019 00:03:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscriptionid' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:262
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(262): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 262
+[17-Aug-2019 17:17:31 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:224) in /home/roguitar/public_html/ipn/ipnlistener.php on line 341
+[06-Sep-2019 11:17:56 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:20:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:22:46 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:22:51 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:23:02 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:23:25 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:24:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:24:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:25:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:28:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:28:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:28:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 11:29:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypal_amount' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:268
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(268): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 268
+[06-Sep-2019 14:05:25 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currency' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:269
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(269): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 269
+[06-Sep-2019 14:05:27 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currency' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:269
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(269): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 269
+[09-Sep-2019 15:51:13 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:271
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(271): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 271
+[13-Sep-2019 10:41:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[17-Sep-2019 15:50:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[27-Sep-2019 03:02:46 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/roguitar/public_html/paypalswitch.inc.php on line 8
+[27-Sep-2019 03:03:05 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/roguitar/public_html/paypalswitch.inc.php on line 8
+[27-Sep-2019 14:44:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(27): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[01-Oct-2019 00:03:17 America/Sao_Paulo] PHP Warning:  mkdir(): File exists in /home/roguitar/public_html/ipn/ipnlistener.php on line 319
+[01-Oct-2019 00:03:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/roguitar/public_html/ipn/ipnlistener.php:319) in /home/roguitar/public_html/ipn/ipnlistener.php on line 355
+[01-Oct-2019 16:56:36 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[02-Oct-2019 12:22:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[02-Oct-2019 16:01:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 07:31:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 07:37:09 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 08:23:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 09:34:25 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 10:02:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 10:25:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 10:26:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 10:46:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 10:49:29 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 11:37:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 11:59:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 12:52:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 12:56:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 13:11:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 13:36:11 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 14:52:25 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 15:54:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 16:24:00 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[03-Oct-2019 16:28:37 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 07:08:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 08:20:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 09:00:44 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 09:01:14 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 09:27:37 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 09:47:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 10:33:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 11:53:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 12:08:11 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 12:14:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 12:27:53 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 12:59:53 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 14:05:13 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 14:20:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 14:23:55 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 15:19:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 16:40:14 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 16:41:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 17:57:36 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 18:13:16 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[04-Oct-2019 18:21:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[06-Oct-2019 11:38:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[06-Oct-2019 19:28:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[08-Oct-2019 09:55:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[08-Oct-2019 11:45:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[08-Oct-2019 17:44:38 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'paypaldate' cannot be null' in /home/roguitar/public_html/ipn/ipnlistener.php:272
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(272): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/ipnlistener.php on line 272
+[25-Oct-2019 10:34:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(27): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64
+[13-Nov-2019 14:38:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/roguitar/public_html/ipn/PaypalIPN.php:64
+Stack trace:
+#0 /home/roguitar/public_html/ipn/ipnlistener.php(27): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/roguitar/public_html/ipn/PaypalIPN.php on line 64

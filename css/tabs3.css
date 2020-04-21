@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the tab */
+/* Style the buttons inside div personalizarpagina */
+.tab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+  /*background-color: #f1f1f1;*/
+  text-align: center;
+}
+
+.centralizador2 {
+  width: 650px;
+  margin: auto;
+  position: relative;
+  border: 0px solid grey;
+}
+
+/* Style the buttons inside the tab */
+.centralizador2 button {
+  background-color: whitesmoke;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 40px;
+  transition: 0.3s;
+  font-size: 70%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-right: 5px;
+}
+/* Change background color of buttons on hover */
+.centralizador2 button:hover {
+  background-color: #ccc;
+}
+/* Create an active/current tablink class */
+.centralizador2 button.active {
+  background-color: #e8e8e8;
+  font-weight: bold;
+}
+
+.centralizador2 button:nth-child(3){
+  background-color: #EFBE56;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color:white;
+  padding: 6px 40px;
+  transition: 0.3s;
+  font-size: 70%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-right: 5px;
+}
+
+.centralizador2 button:nth-child(3):hover {
+  background-color: rgba(251,142,6,1.00);
+}
+
+.centralizador2 button:nth-child(3).active {
+  background-color: #EFBE56;
+  font-weight: bold;
+}
+
+/* Style the tab content */
+.tabcontent3 {
+  display: none;
+  padding: 2% 3%;
+  border: 0px solid #ccc;
+  border-top: none;
+  overflow: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+  /* [disabled]height:auto; */
+}
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+.topright:hover {
+  color: red;
+}

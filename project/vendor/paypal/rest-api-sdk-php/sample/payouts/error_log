@@ -1,0 +1,7 @@
+[03-Aug-2019 23:55:00 UTC] PHP Notice:  Undefined variable: paypalemail in /home/roguitar/public_html/project/vendor/paypal/rest-api-sdk-php/sample/payouts/CreateSinglePayout.php on line 42
+[03-Aug-2019 23:55:00 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid JSON String' in /home/roguitar/public_html/project/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/JsonValidator.php:29
+Stack trace:
+#0 /home/roguitar/public_html/project/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalModel.php(50): PayPal\Validation\JsonValidator::validate('{\r\n            ...')
+#1 /home/roguitar/public_html/project/vendor/paypal/rest-api-sdk-php/sample/payouts/CreateSinglePayout.php(47): PayPal\Common\PayPalModel->__construct('{\r\n            ...')
+#2 {main}
+  thrown in /home/roguitar/public_html/project/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/JsonValidator.php on line 29

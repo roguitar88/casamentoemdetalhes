@@ -1,0 +1,256 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800,900&display=swap');
+/*root*/
+:root{
+    --typefaceOne: 'Montserrat', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	/* [disabled]box-sizing: border-box; */
+}
+
+body{
+	margin: 0;
+}
+
+p {
+	margin:2px 0 2px 0;
+}
+
+h1{
+	margin: 8px 0 8px 0;
+	}
+
+h3{
+	margin-bottom: 0;
+}	
+
+/*Buttons*/
+.bt{
+    border-style: solid;
+    border-width: 4px;
+    display: inline-block;
+    font-size: 1.08rem; /*0.78*/
+    font-weight: 600;
+    margin-top: 10px;
+	margin-right: 20px;
+    padding: 10px 1rem;
+    text-transform: uppercase;
+}
+.bt:hover{
+    text-decoration: none;
+}
+.bt-branco{
+    background-color: #fff;
+    color: #6d500c;
+}
+.bt-transparente-branco{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.bt-transparente-branco:hover{
+    color: #ddd;    
+}
+.bt-marrom{
+    background-color: #6d500c;
+    border-color: #6d500c;
+    color: #fff;
+}
+/*Header*/
+.header{
+	background: rgb(88,75,6);
+	background-image: linear-gradient(150deg, rgba(88,75,6,0.57) 0%, rgba(88,75,6,0.57) 100%), url("../../images/home/banner_topo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.light_white,
+.bold_white{
+    color: #fff;
+}
+.bold_white{
+    font-weight: bold;
+}
+@media(min-width: 700px){
+    .header{
+        min-height: 100vh;
+    }
+    .header .container{
+        padding: 15rem 0 5rem 0;
+    }
+}
+/*Menu*/
+.menu{
+    background-color: transparent;
+    padding: 10px 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.menu .container_menu{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+}
+.menu .container_links{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+	padding-top:50px;
+    width: 80%;
+}
+.menu .links_left li,
+.menu .links_right li{
+    display: block;
+    margin: 0 10px;
+    padding: 6px 20px;
+}
+.menu .links_left li:hover,
+.menu .links_right li:hover{
+    border-top: 1px solid #fff;
+}
+.menu .links_left li a,
+.menu .links_right li a{
+    color: #fff;
+    font-family: var(--typefaceOn);
+    text-decoration: none;
+}
+.ativo{
+    border: #fff solid 1px;
+}
+.menuFixo{
+    background-color:rgba(0,0,0,0.82);
+}
+@media(min-width: 700px){
+    .menu .logo{
+        width: 20%;
+    }
+    .menu .logo_image{
+        width: 93%;
+    }
+    .menu .container_links{
+        flex-direction: row;
+    }
+    .menu .links_left{
+        width: 80%;
+    }
+    .menu .links_right{
+        width: 30%;
+    }
+    .menu .links_left li,
+    .menu .links_right li{
+        display: inline-block;
+    }
+}
+/*Sections*/
+section .container{padding: 6rem 0;}
+.banner_segundo{
+    background-image: url(../../images/home/segundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.marrom{
+    background-color: #6d500c;
+}
+.marrom .container{padding: 2.7rem 0;}
+/*Textos*/
+.bold{
+    font-weight: bold;
+}
+.color_marrom{
+    color: #6d500c;
+}
+.hero_row > h3{
+    font-size: 1.5rem!important;
+    font-weight: bold;
+}
+/*icones*/
+.icone{
+    height: 130px;
+    width: 119px;
+}
+/*bordas*/
+.borda-marrom{
+    border: 2px solid #6d500c;
+}
+/*Lista marrom*/
+.list_home li{
+    padding: .5rem 4rem;
+    position: relative;
+}
+.list_home li:before{
+    content: "-";
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+}
+
+.container_footer{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+.footerbox{
+	text-align: center;
+	padding:1%;
+	width:33%;
+	height:auto;
+	border:0px solid rgba(164,163,163,1.00);
+}
+
+.mainbox{
+	width:80%;
+	height:auto;
+	margin:auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+	border:0px solid rgba(164,163,163,1.00);
+	padding:1.5%;
+}
+
+.container_footer2{
+    width: 100%;
+	border:0px solid rgba(164,163,163,1.00);
+	padding:0.5%;
+	text-align: center;
+	font-size:90%;
+}
+
+.footer_list li{
+	list-style-type: none;
+	font-size: 90%;
+}
+
+.footer_list li a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer_list li a:hover{
+	color:aquamarine;
+}
+
+h3.steps{
+	font-size:150%;
+	margin-bottom:15px;
+	margin-top:10px;
+	font-weight:bold;
+}
+
+.borda-marrom-grossa{
+    border: 5px solid #6d500c;
+}

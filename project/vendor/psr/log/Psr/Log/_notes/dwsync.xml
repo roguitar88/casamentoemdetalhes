@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="InvalidArgumentException.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432370000000" remote="132091432370000000" Dst="1" />
+<file name="AbstractLogger.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432370000000" remote="132091432370000000" Dst="1" />
+<file name="LoggerAwareInterface.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432380000000" remote="132091432380000000" Dst="1" />
+<file name="LoggerAwareTrait.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432380000000" remote="132091432380000000" Dst="1" />
+<file name="LoggerInterface.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432390000000" remote="132091432390000000" Dst="1" />
+<file name="LoggerTrait.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432390000000" remote="132091432390000000" Dst="1" />
+<file name="NullLogger.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432400000000" remote="132091432400000000" Dst="1" />
+<file name="LogLevel.php" server="englishup.heliohost.org:1312//home/roguitar/" local="132091432400000000" remote="132091432400000000" Dst="1" />
+<file name="AbstractLogger.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432370000000" remote="132264498150000000" Dst="0" />
+<file name="InvalidArgumentException.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432370000000" remote="132264498160000000" Dst="0" />
+<file name="LoggerAwareInterface.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432380000000" remote="132264498170000000" Dst="0" />
+<file name="LoggerAwareTrait.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432380000000" remote="132264498180000000" Dst="0" />
+<file name="LoggerInterface.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432390000000" remote="132264498190000000" Dst="0" />
+<file name="LoggerTrait.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432390000000" remote="132264498200000000" Dst="0" />
+<file name="LogLevel.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432400000000" remote="132264498210000000" Dst="0" />
+<file name="NullLogger.php" server="orangeadex.heliohost.org:1312//home/orange77/public_html/" local="132091432400000000" remote="132264498220000000" Dst="0" />
+<file name="AbstractLogger.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432370000000" remote="132284491580000000" Dst="0" />
+<file name="InvalidArgumentException.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432370000000" remote="132284491600000000" Dst="0" />
+<file name="LoggerAwareInterface.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432380000000" remote="132284491610000000" Dst="0" />
+<file name="LoggerAwareTrait.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432380000000" remote="132284491620000000" Dst="0" />
+<file name="LoggerInterface.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432390000000" remote="132284491640000000" Dst="0" />
+<file name="LoggerTrait.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432390000000" remote="132284491650000000" Dst="0" />
+<file name="LogLevel.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432400000000" remote="132284491670000000" Dst="0" />
+<file name="NullLogger.php" server="orangeadex.tk:1312//home/orange77/public_html/" local="132091432400000000" remote="132284491690000000" Dst="0" />
+</dwsync>

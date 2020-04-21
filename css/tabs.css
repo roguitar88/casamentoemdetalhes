@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the tab */
+/* Style the buttons inside div personalizarpagina */
+.padrao {
+	background: rgb(89,6,99);
+	background: -webkit-linear-gradient(56deg, rgba(89,6,99,1) 0%, rgba(255,0,236,1) 100%);
+	background: -o-linear-gradient(56deg, rgba(89,6,99,1) 0%, rgba(255,0,236,1) 100%);
+	background: linear-gradient(146deg, rgba(89,6,99,1) 0%, rgba(255,0,236,1) 100%);
+}
+.personalizarpagina {
+  float: left;
+  padding-right: 1.8%;
+  width: 15%;
+  height: auto;
+  border: 0px solid #ccc;
+}
+.personalizarpagina button {
+  background-color: #A7A7A7;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 70%;
+  margin-bottom: 2px;
+  height: 30px;
+  width: 100%;
+  line-height: 2;
+  color: whitesmoke;
+}
+/* Change background color of buttons on hover */
+.personalizarpagina button:hover {
+  background-color: #ccc;
+}
+	
+  /*
+  background: #590663;
+  background: -webkit-linear-gradient(56deg, #590663 0%, #ff00ec 100%);
+  background: -o-linear-gradient(56deg, #590663 0%, #ff00ec 100%);
+  background: linear-gradient(146deg, #590663 0%, #ff00ec 100%);
+  */
+
+/* Style the tab content */
+.tabcontent2 {
+  display: none;
+  padding-right: 2%;
+  border: 0px solid #ccc;
+  overflow: auto;
+  background-color: white;
+  padding: 1.5%;
+  width: 85%;
+  height: auto;
+  float: right;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+	 box-shadow: 0 8px 6px -6px #ccc;	
+  /* [disabled]height:auto; */
+}
+/* Style the close button */
+/*
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {
+	color: red;
+}
+*/
