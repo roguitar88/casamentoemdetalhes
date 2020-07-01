@@ -243,7 +243,7 @@ include "fpixels.inc.php";
                             </td>
                             <td class="alinharelementos">
                             	<br/>
-                                <div class="g-recaptcha" data-sitekey="6LfLp8oUAAAAAPo8ncWFdomJeOuHD_E7CJtCklnT"></div>
+                                <div class="g-recaptcha" data-sitekey="chave_do_site"></div>
                             </td>
                         </tr>
 						-->
