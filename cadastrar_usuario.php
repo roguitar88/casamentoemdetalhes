@@ -83,7 +83,7 @@ $textoinicio = "E tudo começou há um tempo atrás na ilha do sol. Destino te m
 	if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
 		//http://acmeextension.com/integrate-google-recaptcha-with-php/
 		//Verifying if the CAPTCHA was selected and is working
-		$secret = '6LfLp8oUAAAAAFWraqfwpbEVURm0SaapKirI1cLS';
+		$secret = 'seu_segredo_aqui';
 		$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
 		$responseData = json_decode($verifyResponse);
 		if($responseData->success){
