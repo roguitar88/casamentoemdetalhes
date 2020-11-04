@@ -9,13 +9,13 @@ include 'sessao.php';
 
 if(isset($_SESSION['email'])){
 	if($row['ativado'] == 0){
-        header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+        header('Location: '.$urlHost.'/ativacao.php');
         exit;
     }else{
 		$loggedin = true;
 	}
 }else{
-    //header('Location: /orangeadex/casamentoemdetalhes/login.php');
+    //header('Location: '.$urlHost.'/login.php');
     //exit;
 }
 
@@ -27,11 +27,11 @@ if($_GET['perfil']){
 	$ocorrenciadoperfil = $buscarperfil->rowCount();
 	
 	if($ocorrenciadoperfil == 0){
-		header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+		header('Location: '.$urlHost.'/inicio.php');
 		exit;
 	}
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+    header('Location: '.$urlHost.'/inicio.php');
     exit;
 }
 ?>

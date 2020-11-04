@@ -9,11 +9,11 @@ include 'sessao.php';
 
 if(isset($_SESSION['email'])){
 	if($row['ativado'] == 0){
-        header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+        header('Location: '.$urlHost.'/ativacao.php');
         exit;
     }
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes/login.php');
+    header('Location: '.$urlHost.'/login.php');
     exit;
 }
 ?>

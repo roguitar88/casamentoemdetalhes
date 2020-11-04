@@ -15,7 +15,7 @@ if(isset($_SESSION['email'])){
 */
 
 if(isset($_SESSION['email'])){
-    header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+    header('Location: '.$urlHost.'/inicio.php');
     exit;
 }
 
@@ -97,7 +97,7 @@ include "fpixels.inc.php";
     -->
     <div class="divinscricao" align="center">
         <!--
-		<a href="/orangeadex/casamentoemdetalhes">Back Home</a>
+		<a href="<?php echo $urlHost; ?>">Back Home</a>
 		-->
     <!--
     <div id="conteudo">
@@ -234,7 +234,7 @@ include "fpixels.inc.php";
                             <td class="alinharelementos">
                                 <br/>
                                 <!--<input name="submit" type="submit" value="Submit">-->
-                                <input type="checkbox" id="checkboxCGI" class="css-checkbox" name="checkbox"/><label class="css-label" for="checkboxCGI">Li, reli o contrato e concordo com os <a class="link_contrato" href="/orangeadex/casamentoemdetalhes/termos.php">Termos de Utilização</a> e com as <a class="link_contrato" href="/orangeadex/casamentoemdetalhes/privacidade.php">Políticas de Privacidade</a>.</label><br/><br/>
+                                <input type="checkbox" id="checkboxCGI" class="css-checkbox" name="checkbox"/><label class="css-label" for="checkboxCGI">Li, reli o contrato e concordo com os <a class="link_contrato" href="<?php echo $urlHost; ?>/termos.php">Termos de Utilização</a> e com as <a class="link_contrato" href="<?php echo $urlHost; ?>/privacidade.php">Políticas de Privacidade</a>.</label><br/><br/>
                             </td>
                         </tr>
                         <!--

@@ -78,23 +78,23 @@ include 'jivochat.inc.php';
                 while($fetchsubscribers = $selectsubscribers->fetch(PDO::FETCH_ASSOC)){
                 
                     $id = $fetchsubscribers['id'];
-                    $piclocation = $fetchsubscribers['profilepiclocation'];
+                    $piclocation = $fetchsubscribers['localfotodeperfil'];
                     $nomedeusuario = $fetchsubscribers['nomedeusuario'];
                     $email3 = $fetchsubscribers['email'];
-                    $firstname = $fetchsubscribers['firstname'];
-                    $lastname = $fetchsubscribers['surname'];
-                    $phone = $fetchsubscribers['phone'];
+                    $firstname = $fetchsubscribers['nomeprincipal'];
+                    $lastname = $fetchsubscribers['sobrenome'];
+                    $phone = $fetchsubscribers['fone'];
                     $whatsapp = $fetchsubscribers['whatsapp'];
-                    $address = $fetchsubscribers['address'];
-                    $city = $fetchsubscribers['city'];
-                    $state = $fetchsubscribers['state'];
-                    $country = $fetchsubscribers['country'];
-                    $gender = $fetchsubscribers['gender'];
-                    $birthdate = $fetchsubscribers['birthdate'];
-                    $userip = $fetchsubscribers['userip'];
-                    $credential = $fetchsubscribers['credential'];
-                    $registrydate = $fetchsubscribers['date'];
-                    $activated = $fetchsubscribers['activated'];
+                    $address = $fetchsubscribers['endereco'];
+                    $city = $fetchsubscribers['cidade'];
+                    $state = $fetchsubscribers['estado'];
+                    $country = $fetchsubscribers['pais'];
+                    $gender = $fetchsubscribers['sexo'];
+                    $birthdate = $fetchsubscribers['datadenascimento'];
+                    $userip = $fetchsubscribers['ipdousuario'];
+                    $credential = $fetchsubscribers['credencial'];
+                    $registrydate = $fetchsubscribers['data'];
+                    $activated = $fetchsubscribers['ativado'];
 					                    
                     $start = date_create($birthdate);
                     $end = date_create();

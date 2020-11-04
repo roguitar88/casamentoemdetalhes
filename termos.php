@@ -1,6 +1,8 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
+include "sessao.php";
 ?>
 <html>
    <head lang="pt-br">
@@ -46,7 +48,7 @@ include "jivochat.inc.php";
 	<h4 class="modified">Última Alteração: 4 Jan 2020</h4>
 	<h4>Da Aceitação dos Termos de Utilização ou de Serviço</h4>
 	<p>The following terms and conditions, together with any documents they expressly incorporate by reference
-		(collectively, these "<strong>Terms of Service</strong>"), govern your access to and use of <a href="/orangeadex/casamentoemdetalhes">/orangeadex/casamentoemdetalhes
+		(collectively, these "<strong>Terms of Service</strong>"), govern your access to and use of <a href="<?php echo $urlHost; ?>"><?php echo $urlHost; ?>
 		</a>, including any content, functionality and services
 		offered on or through the Website, whether as a guest or a user. These Terms of Service apply to the Website,
 		web pages, interactive features, applications, widgets, blogs, social networks, social network "tabs",
@@ -54,7 +56,7 @@ include "jivochat.inc.php";
 		computer, mobile device or other technology, manner or means.</p>
 	<p>Please read the Terms of Service carefully before you start to use the Website. By using the Website or by
 		clicking to accept or agree to the Terms of Service when this option is made available to you, you accept and
-		agree to be bound and abide by these Terms of Service and our Privacy Policy, found at <a href="/orangeadex/casamentoemdetalhes/privacidade.php">/orangeadex/casamentoemdetalhes/privacidade.php</a>
+		agree to be bound and abide by these Terms of Service and our Privacy Policy, found at <a href="<?php echo $urlHost; ?>/privacidade.php"><?php echo $urlHost; ?>/privacidade.php</a>
 		incorporated herein by reference. If you do not want to agree to these Terms of Service or the Privacy Policy,
 		you must not access or use the Website.</p>
 	<p>If you access or use the Website, whether you click to accept or not, you agree to all of the various terms in
@@ -75,7 +77,7 @@ include "jivochat.inc.php";
 	<h4>Changes to the Terms of Service</h4>
 	<p>We may modify or revise these Terms of Service from time to time in our sole discretion and you agree to be bound
 		by such modifications or revisions. Although we may attempt to notify you when major changes are made to these
-		Terms of Service, you are expected to periodically review the most up-to-date version found at <a href="/orangeadex/casamentoemdetalhes/termos.php">/orangeadex/casamentoemdetalhes/termos.php</a>,
+		Terms of Service, you are expected to periodically review the most up-to-date version found at <a href="<?php echo $urlHost; ?>/termos.php"><?php echo $urlHost; ?>/termos.php</a>,
 		so you are aware of any changes, as they are binding on you.</p>
 	<p>If we change anything in these Terms of Service, the change will be reflected in the "last modified date".
 		You agree that you will periodically review these terms and refresh the page when doing so. You agree to note
@@ -126,7 +128,7 @@ include "jivochat.inc.php";
 	</ul>
 	<p>In order to use the Website or some of the resources it offers, you may sign in using your login. If you
 		do so, you authorize us to access and use certain account information. For more information regarding
-		the information we collect from you and how we use it, please consult our <a href="/orangeadex/casamentoemdetalhes/privacidade.php">Privacy Policy</a>.</p>
+		the information we collect from you and how we use it, please consult our <a href="<?php echo $urlHost; ?>/privacidade.php">Privacy Policy</a>.</p>
 	<p>You are responsible for maintaining the confidentiality of your login credentials you use to sign up for,
 		and you are solely responsible for all activities that occur under those credentials. If you think someone has
 		gained access to your account, please immediately contact <a
@@ -134,7 +136,7 @@ include "jivochat.inc.php";
 	<p>It is a condition of your use of the Website that all the information you provide on the Website or through
 		is correct, current and complete. You agree that all information you provide to register with this
 		Website or otherwise, including but not limited to through the use of any interactive features on the Website,
-		is governed by our Privacy Policy found at <a href="/orangeadex/casamentoemdetalhes/privacidade.php">/orangeadex/casamentoemdetalhes/privacidade.php</a>, and you consent to all actions we take with
+		is governed by our Privacy Policy found at <a href="<?php echo $urlHost; ?>/privacidade.php"><?php echo $urlHost; ?>/privacidade.php</a>, and you consent to all actions we take with
 		respect to your information consistent with our Privacy Policy.</p>
 	<p>If you choose, or are provided with, a user name, senha or any other piece of information as part of our
 		security procedures, you must treat such information as confidential and, you must not disclose it to any other
@@ -297,7 +299,7 @@ include "jivochat.inc.php";
 		up-to-date. Any of the material on the Website may be out of date at any given time, and we are under no
 		obligation to update such material.</p>
 	<h4>Information about You and Your Visits to the Website</h4>
-	<p>All information we collect on this Website is subject to our <a href="/orangeadex/casamentoemdetalhes/privacidade.php">Privacy Policy</a>. By using the Website, you consent to
+	<p>All information we collect on this Website is subject to our <a href="<?php echo $urlHost; ?>/privacidade.php">Privacy Policy</a>. By using the Website, you consent to
 		all actions taken by us with respect to your information in compliance with the Privacy Policy.</p>
 	<h4>Collection and Use of Your Usage Information by Advertisers and Others</h4>
 	<p>The Website may allow others to display advertisements using the Website. These third parties use technology to
@@ -470,10 +472,10 @@ include "jivochat.inc.php";
 	<p>This website is operated by MG Freesites Ltd, Block 1,&nbsp;195-197 Old Nicosia-Limassol Road,&nbsp;Dali
 		Industrial zone,&nbsp;Cyprus 2540.</p>
 	<p>All notices of copyright infringement claims should be sent to the copyright agent designated in our Copyright
-		Policy <a href="/orangeadex/casamentoemdetalhes/informativos/dmca">/orangeadex/casamentoemdetalhes/information/dmca</a> in the
+		Policy <a href="<?php echo $urlHost; ?>/informativos/dmca"><?php echo $urlHost; ?>/informativos/dmca</a> in the
 		manner and by the means set forth therein.</p>
 	<p>All feedback, comments, requests for technical support and other communications relating to the Website should be
-		directed <a href="/orangeadex/casamentoemdetalhes/informativos">here</a>.</p>
+		directed <a href="<?php echo $urlHost; ?>/informativos">here</a>.</p>
 	<h4>Waiver and Severability</h4>
 	<p>No waiver by the Company of any term or condition set forth in these Terms of Service shall be deemed a further
 		or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of

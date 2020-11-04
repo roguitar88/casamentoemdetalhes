@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/	
 //Use this include here as a controller where you can switch between LIVE and SANDBOX mode. More practical and more easy, right? All PayPal credentials either from LIVE or SANDBOX environment go here
 

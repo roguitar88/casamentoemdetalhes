@@ -44,15 +44,15 @@ try {
     //$refundstatus2->execute(array("Refunded", $saleId, "guarantee"));
     
     echo "Reembolso emitido com sucesso<br/>
-    <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
-    //echo "<script>alert('Refund issued successfully'); location.href='/orangeadex/casamentoemdetalhes/contact.php';</script>";
+    <a href=\"urlHost\">Voltar pra Home</a>";
+    //echo "<script>alert('Refund issued successfully'); location.href='$urlHost/contact.php';</script>";
 } catch (Exception $ex) {
     // NOTE: PLEASE DO NOT USE RESULTPRINTER CLASS IN YOUR ORIGINAL CODE. FOR SAMPLE ONLY
     echo "Erro: Falha no reembolso<br/>
-    <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
+    <a href=\"urlHost\">Voltar pra Home</a>";
     
     //ResultPrinter::printError("Refund Sale", "Sale", null, $refundRequest, $ex);
-    //echo "<script>alert('Error: Unsuccessful Refund'); location.href='/orangeadex/casamentoemdetalhes/learnersnook.php';</script>";
+    //echo "<script>alert('Error: Unsuccessful Refund'); location.href='$urlHost/learnersnook.php';</script>";
     //exit(1);
 }
 // NOTE: PLEASE DO NOT USE RESULTPRINTER CLASS IN YOUR ORIGINAL CODE. FOR SAMPLE ONLY

@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/
 if(isset($_POST['submit'])){
 	//require "config.php"; 
@@ -164,9 +164,9 @@ $textoinicio = "E tudo começou há um tempo atrás na ilha do sol. Destino te m
 			// Let's mail the user!
 			$assunto = "Cadastro como $tipodeusuario e ativação de conta - Casamento em Detalhes";
 			$mensagem = "Olá, $nomeprincipal,
-Obrigado por se cadastrar em nosso site, /orangeadex/casamentoemdetalhes
+Obrigado por se cadastrar em nosso site, $urlHost
 
-Agora é preciso que você ative sua conta para obter acesso à todas as configurações e recursos do sistema e ser capaz de ter o seu próprio site de casamento rodando 24 horas por dia. Curta os melhores momentos da vida com o/a seu/sua parceiro/a. Clique neste link para ativar, ou se preferir, apenas copie e cole-o no seu navegador: /orangeadex/casamentoemdetalhes/ativacao.php?codigo=$codigo. Observação: Você tem que estar logado para que isto dê certo.
+Agora é preciso que você ative sua conta para obter acesso à todas as configurações e recursos do sistema e ser capaz de ter o seu próprio site de casamento rodando 24 horas por dia. Curta os melhores momentos da vida com o/a seu/sua parceiro/a. Clique neste link para ativar, ou se preferir, apenas copie e cole-o no seu navegador: $urlHost/ativacao.php?codigo=$codigo. Observação: Você tem que estar logado para que isto dê certo.
 
 Após a ativação, desfrute o melhor dos nossos recursos.
 A equipe de Casamento em Detalhes agradece!
@@ -220,11 +220,11 @@ Este email foi gerado automaticamente. Peço o favor de não responder ao mesmo.
                 
                 if($row['ativado'] == 1){
                     //session_save_path($sessionpath);
-					header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+					header('Location: '.$urlHost.'/inicio.php');
                     exit;
                 }else{
                     //session_save_path($sessionpath);
-					header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+					header('Location: '.$urlHost.'/ativacao.php');
                     exit;
                 }
 			} else {
@@ -240,7 +240,7 @@ Este email foi gerado automaticamente. Peço o favor de não responder ao mesmo.
 }
 /*
 else{
-	header("Location: /orangeadex/casamentoemdetalhes");
+	header("Location: '.$urlHost.'");
 	exit;
 }
 */

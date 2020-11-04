@@ -4,9 +4,9 @@ include "key.inc.php";
 $referer = $_SERVER['HTTP_REFERER'];
 $referer_parse = parse_url($referer);
 
-//casamentoemdetalhes.orangeadex.tk
 //The $referer_parse will give some more, let's say, security
-//if($referer_parse['host'] == "orangeadex.heliohost.org" || $referer_parse['host'] == "www.orangeadex.heliohost.org") {
+//$wwwUrlHost = "www.".$urlHost;
+//if($referer_parse['host'] == $urlHost || $referer_parse['host'] == $wwwUrlHost) {
 	if(isset($_POST['postphoto'])){
 		$name = $_FILES['pic']['name'];
 		$extension = explode('.', $name);
@@ -19,7 +19,7 @@ $referer_parse = parse_url($referer);
 		if(!empty($name)){
 			if ((strtolower($type) != "image/jpeg") && (strtolower($type) != "image/jpg") && (strtolower($type) != "image/gif") && (strtolower ($type) != "image/png")){
 				$message= "Formato de imagem não suportado";
-				echo "<script type='text/javascript'>alert('$message'); location.href = '/orangeadex/casamentoemdetalhes/site.php'; </script>";
+				echo "<script type='text/javascript'>alert('$message'); location.href = '$urlHost/site.php'; </script>";
 			//this else if command can be deleted. We are just testing it.
 			}else{
 				/*
@@ -33,9 +33,9 @@ $referer_parse = parse_url($referer);
 				$numerodefotosenviadas = $fotosenviadas->rowCount();
 				
 				if($row['nivel'] == 0 AND $numerodefotosenviadas == 5){
-					echo "<script type='text/javascript'>alert('Você já chegou ao seu limite de envio de fotos. Faça o upgrade para enviar mais fotos.'); location.href = '/orangeadex/casamentoemdetalhes/site.php';</script>";
+					echo "<script type='text/javascript'>alert('Você já chegou ao seu limite de envio de fotos. Faça o upgrade para enviar mais fotos.'); location.href = '$urlHost/site.php';</script>";
 				}elseif($row['nivel'] == 1 AND $numerodefotosenviadas == 10){
-					echo "<script type='text/javascript'>alert('Você já chegou ao seu limite de envio de fotos. Faça o upgrade para enviar mais fotos.'); location.href = '/orangeadex/casamentoemdetalhes/site.php';</script>";
+					echo "<script type='text/javascript'>alert('Você já chegou ao seu limite de envio de fotos. Faça o upgrade para enviar mais fotos.'); location.href = '$urlHost/site.php';</script>";
 				}else{
 					$filename = $random_name.'.'.$extension;
 					move_uploaded_file($tmp, 'fotos/historia/'.$filename);
@@ -48,14 +48,14 @@ $referer_parse = parse_url($referer);
 				}
 			}
 		}else{
-			echo "<script type='text/javascript'>alert('Por favor escolha uma foto do seu computador'); location.href = '/orangeadex/casamentoemdetalhes/site.php';</script>";
+			echo "<script type='text/javascript'>alert('Por favor escolha uma foto do seu computador'); location.href = '$urlHost/site.php';</script>";
 		}
 	}else{
-		header('Location: /orangeadex/casamentoemdetalhes/site.php');
+		header('Location: '.$urlHost.'/site.php');
 		exit;
 	}
 //}else {
-     //header('Location: /orangeadex/casamentoemdetalhes');
+     //header('Location: '.$urlHost);
      //exit;
 //}
 ?>

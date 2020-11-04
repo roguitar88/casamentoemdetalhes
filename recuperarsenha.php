@@ -6,7 +6,7 @@ session_start();
 include "sessao.php";
 
 if(isset($_SESSION['email'])){
-	header('Location: /orangeadex/casamentoemdetalhes');
+	header('Location: '.$urlHost);
 }
 	
 if(isset($_GET['codigo'])){
@@ -25,7 +25,7 @@ if(isset($_GET['codigo'])){
 include 'analytics.inc.php';
 ?>
 <meta charset="utf-8">
-<meta name="description" content="Forgot you senha? Reset it here"/>
+<meta name="description" content="Esqueceu a senha? Resete-a por aqui"/>
 <meta name="keywords" content=""/>
 	<link rel="stylesheet" type="text/css" href="css/index.css" id="pagesheet"/>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -51,16 +51,16 @@ include "fpixels.inc.php";
 <main>
 <div id="conteudo">
     <center>
-    <img src="/images/orangeadex.png" width="20%" height="auto" />
+    <img src="/images/hearts.png" width="20%" height="auto" />
     <br/><br/><br/><br/>
     
-    <p style="font-size:15px; font-weight: bold; color:#09F; font-family:Verdana, Geneva, sans-serif;">Now reset your senha by choosing a new one. And repeat it for confirmation.</p><br/>
-    <span style="font-size:9px;">*Paswword hint: at least 8 characters - number(s), uppercase and lowercase letter(s)</span></<br>
+    <p style="font-size:15px; font-weight: bold; color:#09F; font-family:Verdana, Geneva, sans-serif;">Agora resete a sua senha, escolhendo uma nova. E repita-a para confirmação.</p><br/>
+    <span style="font-size:9px;">*Dica de senha: pelo menos 8 caracteres - números, maiúsculas e minúsculas</span></<br>
     <form class="formulario" enctype="multipart/form-data" name="senha" method="post" action="">
         <div class="alinharelementos2">
-        <label></label><input class="caixadetexto" name="senha1" type="password" id="senha1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required placeholder="New senha"><br>
-        <label></label><input class="caixadetexto" name="senha2" type="password" id="senha2" placeholder="Digitar a senha novamente"><br>
-        <input class="botao" name="send1" type="submit" id="send" value="Save New senha">
+        <label></label><input class="caixadetexto" name="senha1" type="password" id="senha1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="pelo menos 8 caracteres - números, maiúsculas e minúsculas" required placeholder="Nova Senha"><br>
+        <label></label><input class="caixadetexto" name="senha2" type="password" id="senha2" placeholder="Redigite a Nova Senha"><br>
+        <input class="botao" name="send1" type="submit" id="send" value="Salvar Senha">
         </div>
     </form>
     <br/><br/>
@@ -77,7 +77,7 @@ include "fpixels.inc.php";
 	//--------SEPARADOR ----------------//
     }else{
         if(!isset($_POST['send1'])){
-            header('Location: /orangeadex/casamentoemdetalhes');
+            header('Location: '.$urlHost);
             exit;
         }
     }

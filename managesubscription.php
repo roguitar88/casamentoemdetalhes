@@ -1,5 +1,5 @@
 <?php
-//if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+//if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/
 include "key.inc.php";
 /**
@@ -9,6 +9,7 @@ include "key.inc.php";
  * Express Checkout  NVP API can be used.
  */
 function change_subscription_status( $profile_id, $action, $parameter, $method, $pdo, $id, $paypal_environment, $payerid, $firstname, $clientemail, $subscriptionid, $api_username, $api_signature, $api_password, $api_url ) {
+	include "key.inc.php";
 	//Using SANDBOX or LIVE PayPal data: 
     $api_request = 'USER=' . urlencode( $api_username ) //API Username
 				.  '&PWD=' . urlencode( $api_password )  //API Password
@@ -61,7 +62,7 @@ function change_subscription_status( $profile_id, $action, $parameter, $method, 
 							//$message = "SUBSCRIPTION CANCELED: Mr. (Mrs.) $firstname, it seems to me that the subscription has been CANCELED by yourself via our website, by clicking that button. The recurring payment won't be charged any longer. To acquire the products/services again you have to go to the website and reorder subscription. This is an example email only.";
 							//mail($clientemail, $subject, $message, "From: Orangeade X<suporte@orangeadex.tk>\nX-Mailer: PHP/" . phpversion());
 							echo "A assinatura agora foi cancelada com sucesso
-                            <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
+                            <a href=\"$urlHost\">Voltar pra Home</a>";
 
 						}elseif($action == 'Suspend'){
 							//ENABLE THE TWO LINES BELOW, IN CASE IPN MESSAGES ARE TAKING TOO LONG...
@@ -85,7 +86,7 @@ function change_subscription_status( $profile_id, $action, $parameter, $method, 
 							//mail($clientemail, $subject, $message, "From: Orangeade X<suporte@orangeadex.tk>\nX-Mailer: PHP/" . phpversion());
 							
 							echo "Agora a sua assinatura se encontra suspensa
-                            <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
+                            <a href=\"urlHost\">Voltar pra Home</a>";
 						}else{
 							if($action == 'Reactivate'){
 								$changesubscriptionstatus = $pdo->prepare("UPDATE usuarios_cadastrados SET paid = ?, paypal_suspended = ? WHERE id = ?");			
@@ -102,12 +103,12 @@ function change_subscription_status( $profile_id, $action, $parameter, $method, 
 								mail($clientemail, $subject, $message, "From: Casamento em Detalhes<suporte@orangeadex.tk>\nX-Mailer: PHP/" . phpversion());
 								
 								echo "A assinatura foi reativada
-                                <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
+                                <a href=\"urlHost\">Voltar pra Home</a>";
 							}
 						}
 					}else{
 						echo "Erro. Não foi possível executar este comando. Entre em contato com a equipe do suporte.
-                        <a href=\"/orangeadex/casamentoemdetalhes\">Voltar pra Home</a>";
+                        <a href=\"urlHost\">Voltar pra Home</a>";
 					}
 				}
 			}
@@ -182,6 +183,6 @@ if(isset($_GET['si']) AND isset($_GET['id']) AND isset($_POST['paypal'])){
 	//change_subscription_status( $profile_id, $action, $parameter, $method, $pdo, $id, $txn_type, $paypal_environment, $payerid, $firstname, $clientemail, $subscriptionid, $api_username, $api_signature, $api_password, $api_url );
 
 }else{
-	echo '<script>alert("Xô! Permissão Negada! Dê o fora imediatamente!"); location.href = "/orangeadex/casamentoemdetalhes/termos.php";</script>';
+	echo '<script>alert("Xô! Permissão Negada! Dê o fora imediatamente!"); location.href = "'.$urlHost.'/termos.php";</script>';
 }
 ?>

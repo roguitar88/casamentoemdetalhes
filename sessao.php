@@ -1,5 +1,5 @@
-<?php    
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+<?php
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/	
 	if(isset($_SESSION['email'])){
 		$email=$_SESSION['email'];
@@ -10,7 +10,16 @@ if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Locati
 		//O código abaixo serve para impedir que contas desativadas utilizem o serviço
 		if($row['desativar'] == 1){
 			session_destroy();
-			echo "<script>alert('Esta conta foi fechada. Mas você pode solicitar sua reativação, se quiser. Entre em contato conosco para reativação. Obrigado.'); location.href = '/orangeadex/casamentoemdetalhes'</script>;";
+			echo "<script>alert('Esta conta foi fechada. Mas você pode solicitar sua reativação, se quiser. Entre em contato conosco para reativação. Obrigado.'); location.href = '$urlHost'</script>;";
 		}
+	}
+
+	//A variável $urlHost funciona mais ou menos como uma variável global que armazena o valor da URL host ou domínio. Então para que não haja necessidade de ficar alterando o domínio ou URL a todo momento, é que foi criada esta variável.
+	if($_SERVER['HTTP_HOST'] == "localhost"){
+		$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		$urlHost = explode("/", $url);
+		$urlHost = "/".$urlHost[1];
+	}else{
+		$urlHost = "http://".$_SERVER['HTTP_HOST'];
 	}
 ?>

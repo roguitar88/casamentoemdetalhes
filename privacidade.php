@@ -1,6 +1,8 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
+include "sessao.php";
 ?>
 <html>
    <head lang="pt-br">
@@ -37,7 +39,7 @@ include "jivochat.inc.php";
 	<h1>Política de Privacidade</h1>
 	<h4 class="modified">Última alteração: 16 Mai 2020</h4>
 	<h4>INTRODUÇÃO</h4>
-	<p>MG Freesites Ltd (hereinafter <span>"we", "us" or "our"</span>) operates the website <span><a href="/orangeadex/casamentoemdetalhes">/orangeadex/casamentoemdetalhes</a> (hereinafter "ORANGEADE X" or the "Website" or the "Platform")</span> and is the controller of the information collected or provided via this Website.</p>
+	<p>MG Freesites Ltd (hereinafter <span>"we", "us" or "our"</span>) operates the website <span><a href="<?php echo $urlHost; ?>"><?php echo $urlHost; ?></a> (hereinafter "ORANGEADE X" or the "Website" or the "Platform")</span> and is the controller of the information collected or provided via this Website.</p>
 	<p>This Privacy Policy (together with our <a href="termos.php">Terms of Use</a> and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.</p>
 	<p>We respect your privacy and are committed to protecting it through our compliance with applicable privacy and data protection laws and regulations. Please read this privacy policy carefully to understand our policies and practices regarding your information and how we will treat it. By using our Platform, you are accepting the practices described in this privacy policy. If you do not want your information to be processed as set out in this privacy policy, please do not provide any personal data to us and do not use the Platform.</p>
 	<p>If you have any questions about our privacy practices, please refer to the end of this privacy policy for information on how to contact us.</p>
@@ -112,7 +114,7 @@ include "jivochat.inc.php";
 		<li>in some cases, to restrict our use of your Personal Information (right to restriction of processing).</li>
 	</ul>
 	<h4>CHANGES TO OUR PRIVACY POLICY</h4>
-	<p>We may modify or revise our privacy policy from time to time. Although we may attempt to notify you when major changes are made to this privacy policy, you are expected to periodically review the most up-to-date version found at <a href="/orangeadex/casamentoemdetalhes">/orangeadex/casamentoemdetalhes</a>, so you are aware of any changes.</p>
+	<p>We may modify or revise our privacy policy from time to time. Although we may attempt to notify you when major changes are made to this privacy policy, you are expected to periodically review the most up-to-date version found at <a href="<?php echo $urlHost; ?>"><?php echo $urlHost; ?></a>, so you are aware of any changes.</p>
 	<p>If we change anything in our privacy policy, the date of change will be reflected in the "last modified date". You agree that you will periodically review this privacy policy and refresh the page when doing so. You agree to note the date of the last revision to our privacy policy. If the "last modified" date is unchanged from the last time you reviewed our privacy policy, then it is unchanged. If the date has changed that means that there have been changes. In these circumstances you agree to re-review our privacy  policy and your continued use of our Platform confirms your acceptance of the revised terms.</p>
 	<p>All changes are effective immediately and apply to all access to and use of the Platform thereafter. The updated version of our privacy policy supersedes any prior versions immediately upon being posted.</p>
 	<h4>COMPLAINTS PROCEDURE</h4>

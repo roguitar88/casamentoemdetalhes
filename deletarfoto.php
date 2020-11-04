@@ -4,11 +4,11 @@ include "key.inc.php";
 $referer = $_SERVER['HTTP_REFERER'];
 $referer_parse = parse_url($referer);
 
-//casamentoemdetalhes.orangeadex.tk
 //The $referer_parse will give some more, let's say, security
-//if($referer_parse['host'] == "orangeadex.heliohost.org" || $referer_parse['host'] == "www.orangeadex.heliohost.org") {
+//$wwwUrlHost = "www.".$urlHost;
+//if($referer_parse['host'] == $urlHost || $referer_parse['host'] == $wwwUrlHost) {
 	if(!isset($_GET['id']) AND !isset($_POST['deletepic']) OR ($_GET['id'] == 0 OR is_null($_GET['id']))){
-		header('Location: /orangeadex/casamentoemdetalhes');
+		header('Location: '.$urlHost);
 		exit;
 	}else{
 		$id = $_GET['id'];
@@ -23,11 +23,11 @@ $referer_parse = parse_url($referer);
 		$deletarfoto = $pdo->prepare("DELETE FROM fotos WHERE id = ?");
 		$deletarfoto->execute(array($id));
 		
-		header('Location: /orangeadex/casamentoemdetalhes/site.php');
+		header('Location: '.$urlHost.'/site.php');
 		exit;
 	}
 //} else {
-     //header('Location: /orangeadex/casamentoemdetalhes/site.php');
+     //header('Location: '.$urlHost.'/site.php');
      //exit;
 //}
 ?>

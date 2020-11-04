@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/
 if(isset($_POST['salvartemplate'])){
 	session_start();
@@ -18,11 +18,11 @@ if(isset($_POST['salvartemplate'])){
 		$salvartemplate = $pdo->prepare("UPDATE usuarios_cadastrados SET template = ? WHERE id = ?");
 		$salvartemplate->execute(array($templateescolhido, $row['id']));
 
-		header('Location: /orangeadex/casamentoemdetalhes/site.php');
+		header('Location: '.$urlHost.'/site.php');
 		exit;
 	}else{
 		//$campovazio = true;
-		echo '<script>alert("Por favor, selecione um template."); location.href = "/orangeadex/casamentoemdetalhes/site.php";</script>';
+		echo '<script>alert("Por favor, selecione um template."); location.href = "'.$urlHost.'/site.php";</script>';
 	}
 }
 ?>

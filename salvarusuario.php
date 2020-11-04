@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/
 if(isset($_POST['salvarusuario'])){
 	session_start();
@@ -38,14 +38,14 @@ if(isset($_POST['salvarusuario'])){
 		$salvarusuario = $pdo->prepare("UPDATE usuarios_cadastrados SET nomedeusuario = ?, nomedonoivo = ?, nomedanoiva = ?, datadocasamento = ? WHERE id = ?");
 		$salvarusuario->execute(array($nomedeusuario, $nomedonoivo, $nomedanoiva, $datadocasamento, $row['id']));
 
-		header('Location: /orangeadex/casamentoemdetalhes/site.php');
+		header('Location: '.$urlHost.'/site.php');
 		exit;
 	}else{
 		//$campovazio = true;
 	?>
 <script>
 	alert('<?php foreach($mensagem as $valormensagem){ echo $valormensagem."\n"; }?>'); 
-	location.href = '/orangeadex/casamentoemdetalhes/site.php';
+	location.href = '$urlHost/site.php';
 </script>
 	<?php
 	}

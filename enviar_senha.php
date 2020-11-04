@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //Para configuração do localhost SMTP ou envio de emails, utilize este método: https://respostas.guj.com.br/36158-configuar-php-para-enviar-email-no-windows e altere as configurações de php.ini
 
 //https://wp-mix.com/php-protect-include-files/
@@ -24,14 +24,6 @@ if(isset($_POST['send'])){
 	$count2 = $stmt2->rowCount();//$count2 = count($row2);
 	*/
 	
-	$firstname = $rowemail['nomeprincipal'];
-	$lastname = $rowemail['sobrenome'];
-	$senha = $rowemail['senha'];
-	$nomedeusuario = $rowemail['nomedeusuario'];
-	$email = $rowemail['email'];
-	//$reset_senha_code = $row['reset_senha_code'];
-	$id = $rowemail['id'];
-	
 	$code = substr(md5(uniqid(mt_rand(), true)) , 0, 8);
 	/*$firstname1 = $row2['firstname'];
 	$lastname1 = $row2['lastname'];
@@ -43,22 +35,31 @@ if(isset($_POST['send'])){
 	 /*echo $count2 . "<br>";*/
 	
 	if ( $countemail == 1) {
+
+	$firstname = $rowemail['nomeprincipal'];
+	$lastname = $rowemail['sobrenome'];
+	$senha = $rowemail['senha'];
+	$nomedeusuario = $rowemail['nomedeusuario'];
+	$email = $rowemail['email'];
+	//$reset_senha_code = $row['reset_senha_code'];
+	$id = $rowemail['id'];
+	
 	$insert_code = $pdo->prepare("UPDATE usuarios_cadastrados SET resetar_codigo_senha = ? WHERE id = ?");
 	$insert_code->execute(array($code, $id));
 	// Vamos enviar um email para o usuário!
 	$subject = "Recuperação de Senha - Casamento em Detalhes";
 	$message = "Caro amigo $firstname $lastname,
-Pelo visto, me parece que você solicitou a recuperação de sua senha pelo site /orangeadex/casamentoemdetalhes.
+Pelo visto, me parece que você solicitou a recuperação de sua senha pelo site $urlHost.
 
 Sugiro que clique no link abaixo e siga as instruções:
-/orangeadex/casamentoemdetalhes/recuperarsenha.php?codigo=$code
+$urlHost/recuperarsenha.php?codigo=$code
 
 Este é o seu nome de usuário: $nomedeusuario
 
 Agradecemos muito o seu retorno!
 Do Webmaster
 
-Nota: Caso a pessoa que solicitou tal alteração não seja você, sugiro que nos relate isto enviando um email pelo link /orangeadex/casamentoemdetalhes/contato.php ou clicando no ícone do chat amarelo que se encontra no canto inferior direito do site.
+Nota: Caso a pessoa que solicitou tal alteração não seja você, sugiro que nos relate isto enviando um email pelo link $urlHost/contato.php ou clicando no ícone do chat amarelo que se encontra no canto inferior direito do site.
 Este email foi gerado automaticamente. Peço o favor de não responder ao mesmo. Sua mensagem não será lida. Contudo, entre em contato, usando os veículos supracitados.";
 	
 	mail($email, $subject, $message, "From: CASAMENTO EM DETALHES<suporte@orangeadex.tk>\nX-Mailer: PHP/" . phpversion());
@@ -80,14 +81,14 @@ if(isset($_POST['send1'])){
 	$senha1 = filter_input(INPUT_POST, 'senha1');
 	$senha2 = filter_input(INPUT_POST, 'senha2');
 	
-	$fetchresetcode = $pdo->prepare("SELECT * FROM usuarios_cadastrados WHERE reset_senha_code = ?");
+	$fetchresetcode = $pdo->prepare("SELECT * FROM usuarios_cadastrados WHERE resetar_codigo_senha = ?");
 	$fetchresetcode->execute(array($reset_code));
 	$rowsenha = $fetchresetcode->fetch();
 	$countsenha = $fetchresetcode->rowCount();
 	$email = $rowsenha['email'];
 	$user_id = $rowsenha['id'];
-	$firstname = $rowsenha['firstname'];
-	$lastname = $rowsenha['surname'];
+	$firstname = $rowsenha['nomeprincipal'];
+	$lastname = $rowsenha['sobrenome'];
 	//$row = $stmt->fetch(PDO::FETCH_ASSOC);
 	//$num1 = $stmt->fetchAll();
 	//$count = $stmt->rowCount();
@@ -115,12 +116,12 @@ if(isset($_POST['send1'])){
 		// Vamos enviar o email para o usuário!
 		$subject = "Acesso recuperado com sucesso - Casamento em Detalhes";
 		$message = "Caro amigo $firstname $lastname,
-Agora que o seu acesso foi recuperado, só entrar no site /orangeadex/casamentoemdetalhes, e efetuar o login normalmente utilizando a nova informação. E por favor, vê se não esquece mais essa senha, haha.
+Agora que o seu acesso foi recuperado, só entrar no site $urlHost, e efetuar o login normalmente utilizando a nova informação. E por favor, vê se não esquece mais essa senha, haha.
 
 Agradecemos a preferência! Aprecie o nosso conteúdo.
 Do Webmaster
 
-Nota: Caso a pessoa que solicitou tal alteração não seja você, sugiro que nos relate isto enviando um email pelo link /orangeadex/casamentoemdetalhes/contato.php ou clicando no ícone do chat amarelo que se encontra no canto inferior direito do site.
+Nota: Caso a pessoa que solicitou tal alteração não seja você, sugiro que nos relate isto enviando um email pelo link $urlHost/contato.php ou clicando no ícone do chat amarelo que se encontra no canto inferior direito do site.
 Este email foi gerado automaticamente. Peço o favor de não responder ao mesmo. Sua mensagem não será lida. Contudo, entre em contato, usando os veículos supracitados.";
 		
 		mail($email, $subject, $message, "From: CASAMENTO EM DETALHES<suporte@orangeadex.tk>\nX-Mailer: PHP/" . phpversion());
@@ -132,7 +133,7 @@ Este email foi gerado automaticamente. Peço o favor de não responder ao mesmo.
 		$deletecode = $pdo->prepare("UPDATE usuarios_cadastrados SET resetar_codigo_senha = ? WHERE id = ?");
 		$deletecode->execute(array($reset_code2, $user_id));
 		
-		echo '<script>alert("Ótimo! Agora você pode efetuar o login. Você será redirecionado para a página de login"); location.href = "/orangeadex/casamentoemdetalhes/login.php";</script>';
+		echo '<script>alert("Ótimo! Agora você pode efetuar o login. Você será redirecionado para a página de login"); location.href = "'.$urlHost.'/login.php";</script>';
 	}else{
 		$validationmessages = true;
 	}

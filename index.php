@@ -8,7 +8,7 @@ include 'sessao.php';
 //session_save_path($sessionpath);
 
 if(isset($_SESSION['email'])){
-	header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+	header('Location: '.$urlHost.'/inicio.php');
 	exit;
 }
 ?>
@@ -19,7 +19,7 @@ if(isset($_SESSION['email'])){
 <?php include "analytics.inc.php"; ?>
 <meta charset="utf-8">
 <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
-<!--<base href="http://casamentoemdetalhes.com/">--><base href=".">
+<!--<base href="<?php //echo $urlHost; ?>">--><base href=".">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <!--SEO-->
@@ -61,7 +61,7 @@ if(isset($_SESSION['email'])){
         </div>
         <div class="container_links">
             <ul class="links_left">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#planos">Planos</a></li>
                 <li><a href="#crieseusite">Crie o seu site</a></li>
                 <li><a href="#rodape3">Contato</a></li>
@@ -405,7 +405,7 @@ if(isset($_SESSION['email'])){
 		</div>
 	</div>
 	<div class="container_footer2 color_marrom">
-		<span style="font-weight:bold;">Casamento em Detalhes 2020</span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a href="/orangeadex/casamentoemdetalhes"><span style="font-weight:bold;">Orangeade X</span></a>
+		<span style="font-weight:bold;">Casamento em Detalhes 2020</span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a href="<?php echo $urlHost; ?>"><span style="font-weight:bold;">Orangeade X</span></a>
 	</div>
 </footer>
 	

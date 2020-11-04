@@ -8,7 +8,7 @@ include 'sessao.php';
 include 'verificar_usuario.php';
 
 if(isset($_SESSION['email'])){
-	header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+	header('Location: '.$urlHost.'/inicio.php');
 }
 
 ?>

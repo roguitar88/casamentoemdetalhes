@@ -9,7 +9,7 @@ include 'sessao.php';
 
 if(isset($_SESSION['email'])){
 	if($row['ativado'] == 0){
-        header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+        header('Location: '.$urlHost.'/ativacao.php');
         exit;
     }elseif($row['credencial'] == 0){
 		$loggedin = true;
@@ -17,7 +17,7 @@ if(isset($_SESSION['email'])){
 		
 	}
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes/login.php');
+    header('Location: '.$urlHost.'/login.php');
     exit;
 }
 
@@ -51,7 +51,7 @@ if(isset($_GET['tx']) AND !is_null($_GET['tx'])){
 	if(!$res){
 		//HTTP ERROR
 		//$error_message = true;
-		header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+		header('Location: '.$urlHost.'/inicio.php');
 		exit;
 	}else{
 		//Let's fetch the table to see if there's some similar code there already recorded to avoid fraud
@@ -110,7 +110,7 @@ Nosso sistema detectou recentemente algo fora do comum. É um tanto estranho que
 
 Por favor, se a pessoa que efetuou esta transação não foi você, por favor entre em contato conosco. De acordo com os nossos termos, lembre-se que você pode ter somente um único cadastro. Contas duplicadas serão suspensas para sempre. Por favor, informe-nos sobre quaisquer ocorrências estranhas. Você a partir do recebimento desta mensagem terá um prazo de 24 horas para fazê-lo ou sua conta será automaticamente suspensa.
 
-Entre em contato pelo /orangeadex/casamentoemdetalhes/contact.php. É possível que você algum email ou chamada nas próximas horas solicitando que você informe alguns dados por questões de segurança. Obrigado pela atenção e nossa equipe agradece. Tenha um bom dia.
+Entre em contato pelo $urlHost/contact.php. É possível que você algum email ou chamada nas próximas horas solicitando que você informe alguns dados por questões de segurança. Obrigado pela atenção e nossa equipe agradece. Tenha um bom dia.
 
 Divirta-se
 Casamento em Detalhes
@@ -144,21 +144,21 @@ This email was automatically generated. Please, do not respond.";
             //if($paymentstatus = "Completed" || $paymentstatus = "Processed"){
                 //$retrieved_data = true;
             //}else{
-                //header('Location: /orangeadex/casamentoemdetalhes/termos.php');
+                //header('Location: '.$urlHost.'/termos.php');
                 //exit;
             //}
-            header('Location: /orangeadex/casamentoemdetalhes/obrigado.php?tx='.urlencode($tx_token));
+            header('Location: '.$urlHost.'/obrigado.php?tx='.urlencode($tx_token));
             exit;
             
         }else if (strcmp ($lines[0], "FAIL") == 0) {
             // log for manual investigation
             //$invalid = true;
-            header('Location: /orangeadex/casamentoemdetalhes/termos.php');
+            header('Location: '.$urlHost.'/termos.php');
             exit;
         }
 	}
 }else{
-	header('Location: /orangeadex/casamentoemdetalhes/privacidade.php');
+	header('Location: '.$urlHost.'/privacidade.php');
 	exit;
 }
 ?>

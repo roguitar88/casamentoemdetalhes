@@ -6,10 +6,10 @@ include "sessao.php";
 session_start();
 if(isset($_SESSION['email'])){
 	session_destroy();
-	header('Location: /orangeadex/casamentoemdetalhes/login.php');
+	header('Location: '.$urlHost.'/login.php');
 	exit;
 }else{
-	header('Location: /orangeadex/casamentoemdetalhes/login.php');
+	header('Location: '.$urlHost.'/login.php');
 	exit;
 }
 ?>

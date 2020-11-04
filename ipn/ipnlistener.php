@@ -217,7 +217,7 @@ if ($save_log_file) {
 				$mes = "Hello, $affiliatename,
 Congratulations! Now you have an affiliate transaction on behalf of you based on a monthy subscription payment by a client who has ordered a subscription, but your payment will be released only past seven days or so, unless the customer requests its refund after canceling the subscription. For more details about it, please read the Terms of affiliation. The payment goes straight to your PayPal account. Please, check your balance within seven days' time. (Your email: $affiliateemail)
 
-Now for further details, please check your dashboard at: /orangeadex/casamentoemdetalhes/affiliatedashboard.php. If you like, copy and paste the link straight into the adress bar in your browser.
+Now for further details, please check your dashboard at: $urlHost/affiliatedashboard.php. If you like, copy and paste the link straight into the adress bar in your browser.
 
 Yes, you can earn even more money by promoting more people to subcribe to our magazine.
 Thank you very much and welcome!

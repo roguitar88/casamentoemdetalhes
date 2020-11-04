@@ -9,12 +9,12 @@ include 'sessao.php';
 
 if(isset($_SESSION['email'])){
 	if($row['ativado'] == 0){
-        header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+        header('Location: '.$urlHost.'/ativacao.php');
         exit;
     }
 	$loggedin = true;
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes/login.php');
+    header('Location: '.$urlHost.'/login.php');
     exit;
 }
 
@@ -348,7 +348,7 @@ c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
 						$unablebuyer = $pdo->prepare("UPDATE usuarios_cadastrados SET paid = ? WHERE id = ?");
 						$unablebuyer->execute(array(0, $row['id']));
 
-						echo '<script>alert("Buyer converted to non-buyer successfully"); location.href = "/orangeadex/casamentoemdetalhes/subscribe_via_paypal.php";</script>';
+						echo '<script>alert("Buyer converted to non-buyer successfully"); location.href = "'.$urlHost.'/subscribe_via_paypal.php";</script>';
 					}
 					*/
 			?>
@@ -384,7 +384,7 @@ c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
 			}
 			?>
 			<!--https://www.angelleye.com/test-paypal-ipn/-->
-			<form action="/orangeadex/casamentoemdetalhes/ipn/ipnlistener.php" method="POST">
+			<form action="<?php echo $urlHost; ?>/ipn/ipnlistener.php" method="POST">
 				<input name="mc_gross" type="hidden" value="500.00" />
 				<input name="custom" type="hidden" value="some custom data" />
 				<input name="address_status" type="hidden" value="confirmed" />

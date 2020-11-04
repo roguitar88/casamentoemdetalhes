@@ -86,7 +86,7 @@ while($fetchit = $searchaffiliatedata->fetch(PDO::FETCH_ASSOC)){
     
     $sub = "Affiliate payment credited to your PayPal account - Casamento em Detalhes affiliate program";
     $mes = "Hello,
-Now you've got money in your PayPal account. That amount (R$ BRL) is related to the recurring payment of a client's recurring subscription and because you are an Casamento em Detalhes affiliate. For further details, please login and check your dashboard at: /orangeadex/casamentoemdetalhes/affiliatedashboard.php. If you like, copy and paste the link straight into the address bar in your browser.
+Now you've got money in your PayPal account. That amount (R$ BRL) is related to the recurring payment of a client's recurring subscription and because you are an Casamento em Detalhes affiliate. For further details, please login and check your dashboard at: $urlHost/affiliatedashboard.php. If you like, copy and paste the link straight into the address bar in your browser.
 
 Yes, you can earn even more money by promoting more people to subcribe to our magazine.
 Thank you very much and welcome!
@@ -116,7 +116,7 @@ This email was automatically generated. Please, do not respond.";
     /*
     $sub = "Affiliate payment FAILED!! - Casamento em Detalhes affiliate program";
     $mes = "Hello,
-Oops, Houston, we have a problem. Unfortunately, the (R$ BRL) ammount failed to be paid into your account. But all the same, you can claim this payment by contacting our support immediately at /orangeadex/casamentoemdetalhes/contact.php for technical issues solutions. We're very sorry for that. It's likely to have been caused by some inconsistency or malfunction in the PayPal system itself or our integration. For further details, please login and check your dashboard at: /orangeadex/casamentoemdetalhes/affiliatedashboard.php. If you like, copy and paste the link straight into the address bar in your browser.
+Oops, Houston, we have a problem. Unfortunately, the (R$ BRL) ammount failed to be paid into your account. But all the same, you can claim this payment by contacting our support immediately at $urlHost/contact.php for technical issues solutions. We're very sorry for that. It's likely to have been caused by some inconsistency or malfunction in the PayPal system itself or our integration. For further details, please login and check your dashboard at: $urlHost/affiliatedashboard.php. If you like, copy and paste the link straight into the address bar in your browser.
 
 Yes, you can earn even more money by promoting more people to subcribe to our magazine.
 Thank you very much and welcome!

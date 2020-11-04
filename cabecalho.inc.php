@@ -10,7 +10,7 @@
 				<p style="font-size:70%; color:white;">Data: <?php if($row['datadocasamento'] != "0000-00-00 00:00:00"){ echo date("d/m/Y", strtotime($row['datadocasamento'])); }else{ echo "Não definida"; }?></p>
 				<!-- date("d/m/Y") -->
 				<!--
-				<a href="/orangeadex/casamentoemdetalhes/logout.php">Logout</a>
+				<a href="<?php echo $urlHost; ?>/logout.php">Logout</a>
 				-->
 			</div>
         </div>

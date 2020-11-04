@@ -9,7 +9,7 @@ include 'sessao.php';
 
 if(isset($_SESSION['email'])){
 	if($row['ativado'] == 0){
-        header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+        header('Location: '.$urlHost.'/ativacao.php');
         exit;
     }elseif($row['credencial'] == 0){
 		$loggedin = true;
@@ -17,7 +17,7 @@ if(isset($_SESSION['email'])){
 		
 	}
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes/login.php');
+    header('Location: '.$urlHost.'/login.php');
     exit;
 }
 
@@ -50,12 +50,12 @@ if(isset($_GET['tx']) AND !is_null($_GET['tx'])){
         //$updateread = $pdo->prepare("UPDATE registered_users SET read1 = ? WHERE id = ?");
         //$updateread->execute(array(1, $row['id']));
     }else{
-        header('Location: /orangeadex/casamentoemdetalhes/privacidade.php');
+        header('Location: '.$urlHost.'/privacidade.php');
         exit;
     }
     
 }else{
-	header('Location: /orangeadex/casamentoemdetalhes/termos.php');
+	header('Location: '.$urlHost.'/termos.php');
 	exit;
 }
 ?>
@@ -170,7 +170,7 @@ if(isset($_GET['tx']) AND !is_null($_GET['tx'])){
           <input class="button88" type="submit" value="PDT">
         </form><br/><br/>
         
-        <form action="/orangeadex/casamentoemdetalhes">
+        <form action="<?php echo $urlHost; ?>">
         	<input class="button88" style="background: #0F0;" type="submit" value="Volta pra HOME"/>
         </form> 
         </center>

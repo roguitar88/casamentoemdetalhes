@@ -8,11 +8,11 @@ require "config.php";
 include 'sessao.php';
 
 if(!isset($_SESSION['email'])){
-	header('Location: /orangeadex/casamentoemdetalhes');
+	header('Location: '.$urlHost);
 	exit;
 }else{
 	if($row['ativado'] != 0){
-		header('Location: /orangeadex/casamentoemdetalhes/site.php');
+		header('Location: '.$urlHost.'/site.php');
 		exit;
 	}
 	$loggedin = true;
@@ -80,9 +80,9 @@ include "fpixels.inc.php";
 <div class="layout clearfix">
 <header>
     <center>
-		<a href="/orangeadex/casamentoemdetalhes"><img src="images/hearts.png" width="20%" height="auto" /></a>
+		<a href="<?php echo $urlHost; ?>"><img src="images/hearts.png" width="20%" height="auto" /></a>
 		<br/>
-		<a href="/orangeadex/casamentoemdetalhes/logout.php">Logout</a>
+		<a href="<?php echo $urlHost; ?>/logout.php">Logout</a>
 	</center>
 </header>
 <!--new div-->
@@ -109,9 +109,9 @@ include "fpixels.inc.php";
 				$codefromtable = $row['codigo_ativacao'];
 				$subject = "Cadastro e ativação de conta - Casamento em Detalhes";
                 $message = "Olá, $firstname,
-Obrigado por efetuar seu cadastro em nosso site, /orangeadex/casamentoemdetalhes
+Obrigado por efetuar seu cadastro em nosso site, $urlHost
 
-Agora é preciso que você ative sua conta para obter acesso a todos os recursos do sistema. Clique no link: /orangeadex/casamentoemdetalhes/ativacao.php?codigo=$codefromtable. Se preferir, copie e cole o link direto na barra de endereço do seu navegador. Nota: Você tem que estar logado para que isto funcione.
+Agora é preciso que você ative sua conta para obter acesso a todos os recursos do sistema. Clique no link: $urlHost/ativacao.php?codigo=$codefromtable. Se preferir, copie e cole o link direto na barra de endereço do seu navegador. Nota: Você tem que estar logado para que isto funcione.
 
 Após a ativação, disponha dos nossos serviços.
 A equipe de Casamento em Detalhes agradece e lhe deseja as boas vindas.

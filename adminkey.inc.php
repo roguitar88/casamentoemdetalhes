@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes'); 
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost); 
 //https://wp-mix.com/php-protect-include-files/
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -10,7 +10,7 @@ session_start();
 include 'sessao.php';
 
 if(!isset($_SESSION['email'])){
-	header('Location: /orangeadex/casamentoemdetalhes/');
+	header('Location: '.$urlHost.'/');
 	exit;
 }else{
 	$loggedin = true;
@@ -20,7 +20,7 @@ if(!isset($_SESSION['email'])){
 		$adminpermissions = true;
 		$superadminpermissions = true;
 	}else{
-		header('Location: /orangeadex/casamentoemdetalhes/');
+		header('Location: '.$urlHost.'/');
 		exit;
 	}
 }/*Este código aqui restringe as páginas controladas por admin que monitoram o que acontece no site.*/

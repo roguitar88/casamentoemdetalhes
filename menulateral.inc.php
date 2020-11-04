@@ -1,9 +1,9 @@
-<?php if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes/');
+<?php if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost.'/');
 ?>
 <div class="menulateral clearfix">
     <div class="tiralateral">
         <nav>
-            <a href="index.php"><div class="mudarcor1 <?php echo $color; ?>" id="logo">
+            <a href="/"><div class="mudarcor1 <?php echo $color; ?>" id="logo">
                 <img src="images/hearts2.png" width="100%" height="auto" />
             </div></a>
             <a href="assinar.php"><div class="mudarcor" id="assine">

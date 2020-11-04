@@ -8,7 +8,7 @@ session_start();
 include 'sessao.php';
 
 if(!isset($_SESSION['email'])){
-    header('Location: /orangeadex/casamentoemdetalhes');
+    header('Location: '.$urlHost);
 }
 
 $referer = $_SERVER['HTTP_REFERER'];
@@ -36,6 +36,6 @@ if(isset($_GET['tx']) AND isset($_GET['cp']) AND isset($_POST['refund'])){
     $tx_token = $_GET['tx'];
     include "project/vendor/paypal/rest-api-sdk-php/sample/sale/RefundSale.php";
 }else{
-    header('Location: /orangeadex/casamentoemdetalhes');
+    header('Location: '.$urlHost);
 }
 ?>

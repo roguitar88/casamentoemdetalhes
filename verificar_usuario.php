@@ -1,5 +1,5 @@
 <?php
-if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: /orangeadex/casamentoemdetalhes');
+if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Location: '.$urlHost);
 //https://wp-mix.com/php-protect-include-files/
 
 if(isset($_POST['enter'])){
@@ -13,7 +13,6 @@ if(isset($_POST['enter'])){
     $stmt->execute();  
 
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
-    $_SESSION['email'] = $row['email'];
 
     #Validação de inputs
     $err = array();
@@ -27,20 +26,22 @@ if(isset($_POST['enter'])){
     if(!$err){	
         if ($stmt->rowCount() == 1 AND $row['credencial'] == 0 AND $row['desativar'] == 0) {
             if($row['ativado'] != 0){
-                //$_SESSION['email'] = $row['email'];
-                //header('Location: /orangeadex/casamentoemdetalhes');
+                $_SESSION['email'] = $row['email'];
+                //header('Location: '.$urlHost);
                 // session_save_path($sessionpath); 
-				header('Location: /orangeadex/casamentoemdetalhes/inicio.php');
+				header('Location: '.$urlHost.'/inicio.php');
 				exit;
             }else{
+                $_SESSION['email'] = $row['email'];
                 //Altere o local para $_SERVER[HTTP_REFERER]
-                header('Location: /orangeadex/casamentoemdetalhes/ativacao.php');
+                header('Location: '.$urlHost.'/ativacao.php');
                 exit;
             }
 
         }elseif($stmt->rowCount() == 1 AND $row['credencial'] != 0 AND $row['desativar'] == 0) {
+            $_SESSION['email'] = $row['email'];
             //session_save_path($sessionpath);
-            header('Location: /orangeadex/casamentoemdetalhes/admin.php');
+            header('Location: '.$urlHost.'/admin.php');
              exit;
         }else{
             $incorrectLogin = true;
