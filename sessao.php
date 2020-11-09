@@ -15,7 +15,7 @@ if (realpath(__FILE__) === realpath($_SERVER['SCRIPT_FILENAME'])) header('Locati
 	}
 
 	//A variável $urlHost funciona mais ou menos como uma variável global que armazena o valor da URL host ou domínio. Então para que não haja necessidade de ficar alterando o domínio ou URL a todo momento, é que foi criada esta variável.
-	if($_SERVER['HTTP_HOST'] == "localhost"){
+	if($_SERVER['HTTP_HOST'] == "localhost" || $_SERVER['HTTP_HOST'] == "127.0.0.1"){
 		$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 		$urlHost = explode("/", $url);
 		$urlHost = "/".$urlHost[1];
