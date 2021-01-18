@@ -405,7 +405,7 @@ if(isset($_SESSION['email'])){
 		</div>
 	</div>
 	<div class="container_footer2 color_marrom">
-		<span style="font-weight:bold;">Casamento em Detalhes 2020</span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a href="<?php echo $urlHost; ?>"><span style="font-weight:bold;">Orangeade X</span></a>
+		<span style="font-weight:bold;">Casamento em Detalhes <?php echo date('Y'); ?></span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a href="https://github.com/roguitar88"><span style="font-weight:bold;">Rogério Soares</span></a>
 	</div>
 </footer>
 	

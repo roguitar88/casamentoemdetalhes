@@ -15,11 +15,11 @@ try {
 	if(!isset($pdo) || $pdo == false){
 		try{	
 			//Host Remoto
-			$dsn = 'mysql:host=ricky.heliohost.org;dbname=orange77_casamentoemdetalhes';
-			$usuario = 'jecatatu';
-			$senha = 'bobao';
-			$sessionpath = '/home/orange77/tmp';
-			$pdo = new PDO($dsn, $usuario, $senha);
+			$dsn = 'mysql:host=johnny.heliohost.org;dbname=munny_casamentoemdetalhes';
+			$usuario = 'mariamole';
+			$senha = '123456';
+			$sessionpath = '/home/munny/tmp';
+			$pdo = new PDO($dsn, $usuario, $senha, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET CHARACTER SET utf8, NAMES utf8"));
 			$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 		}catch(PDOException $e) {
 			echo 'Error: '.$e->getMessage();

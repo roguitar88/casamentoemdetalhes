@@ -2,5 +2,5 @@
 //https://wp-mix.com/php-protect-include-files/
 ?>    
     <div class="footer">                    
-		<span style="font-weight:bold;">Casamento em Detalhes 2020</span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a target="_blank" href="https://github.com/roguitar88"><span style="font-weight:bold;">Roguitar88</span></a>
+		<span style="font-weight:bold;">Casamento em Detalhes <?php echo date('Y'); ?></span> - Designed by <span style="font-weight:bold;">JFC Designer</span> and developed by <a target="_blank" href="https://github.com/roguitar88"><span style="font-weight:bold;">Rogério Soares</span></a>
     </div>
