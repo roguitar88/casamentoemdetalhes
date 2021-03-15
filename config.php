@@ -16,8 +16,8 @@ try {
 		try{	
 			//Host Remoto
 			$dsn = 'mysql:host=johnny.heliohost.org;dbname=munny_casamentoemdetalhes';
-			$usuario = 'mariamole';
-			$senha = '123456';
+			$usuario = 'munny';
+			$senha = '123147poi';
 			$sessionpath = '/home/munny/tmp';
 			$pdo = new PDO($dsn, $usuario, $senha, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET CHARACTER SET utf8, NAMES utf8"));
 			$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
